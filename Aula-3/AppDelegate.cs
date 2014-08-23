@@ -5,7 +5,7 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace Aula2
+namespace Aula3
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
 	// User Interface of the application, as well as listening (and optionally responding) to
@@ -24,21 +24,6 @@ namespace Aula2
 		// OpenGL applications should use this method to pause.
 		public override void OnResignActivation (UIApplication application)
 		{
-		}
-
-		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
-		{
-			Window = new UIWindow (UIScreen.MainScreen.Bounds);
-			var rootNavigationController = new UINavigationController ();
-			var storyboard = UIStoryboard.FromName ("MainStoryboard", null);
-			var home = storyboard.InstantiateInitialViewController () as UIViewController;
-
-			rootNavigationController.PushViewController (home, false);
-
-			Window.RootViewController = rootNavigationController;
-			Window.MakeKeyAndVisible ();
-
-			return true;
 		}
 		
 		// This method should be used to release shared resources and it should store the application state.

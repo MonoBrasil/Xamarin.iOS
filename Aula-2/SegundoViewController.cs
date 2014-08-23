@@ -39,10 +39,12 @@ namespace Aula2
 					btnEditar.SetTitle("Editar", UIControlState.Normal);
 					tvTabela.SetEditing(false, true);
 					(tvTabela.Delegate as tvTabelaDelegate).DidEndEditing(tvTabela);
+					NavigationController.SetNavigationBarHidden(false, true);
 				} else {
 					btnEditar.SetTitle("OK", UIControlState.Normal);
 					(tvTabela.Delegate as tvTabelaDelegate).WillBeginEditing(tvTabela);
 					tvTabela.SetEditing(true, true);
+					NavigationController.SetNavigationBarHidden(true, true);
 				}
 
 			};

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-2", "Aula-2\Aula-2.csproj", "{26813203-57EE-49C2-BDD9-6537757D927D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-3", "Aula-3\Aula-3.csproj", "{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -25,8 +27,20 @@ Global
 		{26813203-57EE-49C2-BDD9-6537757D927D}.Release|iPhone.Build.0 = Release|iPhone
 		{26813203-57EE-49C2-BDD9-6537757D927D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{26813203-57EE-49C2-BDD9-6537757D927D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Release|iPhone.Build.0 = Release|iPhone
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Aula-2\Aula-2.csproj
+		StartupItem = Aula-3\Aula-3.csproj
 	EndGlobalSection
 EndGlobal

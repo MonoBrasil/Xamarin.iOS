@@ -16,6 +16,10 @@ namespace Aula2
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton btnEditar { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UILabel lblSegundaTela { get; set; }
 
 		[Outlet]
@@ -24,6 +28,10 @@ namespace Aula2
 
 		void ReleaseDesignerOutlets ()
 		{
+			if (btnEditar != null) {
+				btnEditar.Dispose ();
+				btnEditar = null;
+			}
 			if (lblSegundaTela != null) {
 				lblSegundaTela.Dispose ();
 				lblSegundaTela = null;

@@ -2,6 +2,7 @@ using System;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using System.CodeDom.Compiler;
+using System.Reflection;
 
 namespace Aula2
 {
@@ -25,16 +26,17 @@ namespace Aula2
 
 		public override UITableViewCell GetCell (UITableView tableView, NSIndexPath indexPath)
 		{
-			UITableViewCell celula;
+			AulaCell celula;
 
-			celula = tableView.DequeueReusableCell ("celula-planeta");
+			celula = tableView.DequeueReusableCell ("celula-aula") as AulaCell;
 
 			if (celula == null) {
-				celula = new UITableViewCell (UITableViewCellStyle.Subtitle, "celula-planeta");
+				celula = new AulaCell ("celula-aula");
 			}
 
-			celula.TextLabel.Text = lista[indexPath.Row];
-			celula.DetailTextLabel.Text = string.Format ("Linha {0}", indexPath.Row);
+			var img = UIImage.FromFile("planeta.jpg");
+			celula.UpdateCell(lista[indexPath.Row], string.Format ("Linha {0}", indexPath.Row),
+				img);
 
 			return celula;
 		}

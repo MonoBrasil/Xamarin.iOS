@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\planeta.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -117,6 +118,7 @@
     <Compile Include="TerceiraTelaViewController.designer.cs">
       <DependentUpon>TerceiraTelaViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="AulaCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />

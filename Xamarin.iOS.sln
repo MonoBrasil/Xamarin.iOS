@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-2", "Aula-2\Aula-2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-3", "Aula-3\Aula-3.csproj", "{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-4", "Aula-4\Aula-4.csproj", "{00E4569C-0E2F-4B05-B662-49AE99756DB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -15,6 +17,18 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Debug|iPhone.Build.0 = Debug|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Release|iPhone.ActiveCfg = Release|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Release|iPhone.Build.0 = Release|iPhone
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{00E4569C-0E2F-4B05-B662-49AE99756DB9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{26813203-57EE-49C2-BDD9-6537757D927D}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{26813203-57EE-49C2-BDD9-6537757D927D}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{26813203-57EE-49C2-BDD9-6537757D927D}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
@@ -41,6 +55,6 @@ Global
 		{BCDE5B5D-14C9-4AB7-9E9F-42F4C9142A36}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Aula-3\Aula-3.csproj
+		StartupItem = Aula-4\Aula-4.csproj
 	EndGlobalSection
 EndGlobal
